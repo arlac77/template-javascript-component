@@ -1,0 +1,201 @@
+{
+  "name": "{{name}}",
+  "version": "0.0.0-semantic-release",
+  "description": "{{description}}",
+  "module": "{{module}}",
+  "main": "{{module}}",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "npm-package-template"
+  ],
+  "scripts": {
+    "cover": "#overwrite c8 --temp-directory build/coverage ava && c8 report -r lcov --temp-directory build/coverage",
+    "test": "ava",
+    "posttest": "markdown-doctest",
+    "docs": "documentation readme {{module}} --section=API",
+    "lint": "documentation lint {{module}}",
+    "semantic-release": "semantic-release",
+    "travis-deploy-once": "travis-deploy-once"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "documentation": "^9.1.1",
+    "markdown-doctest": "^0.9.1",
+    "ava": "^1.0.1",
+    "c8": "^3.2.1",
+    "esm": "^3.0.84",
+    "semantic-release": "^15.13.2",
+    "travis-deploy-once": "^5.0.11"
+  },
+  "contributors": [
+    {
+      "name": "Markus Felten",
+      "email": "markus.felten@gmx.de"
+    }
+  ],
+  "license": "BSD-2-Clause",
+  "engines": {
+    "node": ">=10.15.0"
+  },
+  "ava": {
+    "require": [
+      "esm"
+    ],
+    "extensions": [
+      "js",
+      "mjs"
+    ],
+    "babel": false,
+    "compileEnhancements": false,
+    "files": [
+      "tests/*-test.js",
+      "tests/*-test.mjs"
+    ]
+  },
+  "template": {
+    "files": [
+      {
+        "merger": "Package",
+        "pattern": "**/package.json",
+        "options": {
+          "keywords": {
+            "auth-provider": "auth-provider",
+            "repository-provider.+": "repository-provider",
+            "^kronos-interceptor.+": "kronos-interceptor",
+            "^kronos-service-(?!manager)": "kronos-service",
+            "^kronos-step.+": "kronos-step",
+            "^kronos-adapter.+": "kronos-step"
+          }
+        }
+      },
+      {
+        "merger": "Travis",
+        "pattern": ".travis.yml"
+      },
+      {
+        "merger": "Readme",
+        "pattern": "README.md",
+        "options": {
+          "badges": [
+            {
+              "name": "npm",
+              "icon": "https://img.shields.io/npm/v/{{name}}.svg",
+              "url": "https://www.npmjs.com/package/{{name}}"
+            },
+            {
+              "name": "Greenkeeper",
+              "icon": "https://badges.greenkeeper.io/{{github.user}}/{{github.repo}}.svg",
+              "url": "https://greenkeeper.io/"
+            },
+            {
+              "name": "semantic-release",
+              "icon": "https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg",
+              "url": "https://github.com/{{github.user}}/{{github.repo}}"
+            },
+            {
+              "name": "styled with prettier",
+              "icon": "https://img.shields.io/badge/styled_with-prettier-ff69b4.svg",
+              "url": "https://github.com/prettier/prettier"
+            },
+            {
+              "name": "Build Status",
+              "icon": "https://secure.travis-ci.org/{{github.user}}/{{github.repo}}.png",
+              "url": "http://travis-ci.org/{{github.user}}/{{github.repo}}"
+            },
+            {
+              "name": "install size",
+              "icon": "https://packagephobia.now.sh/badge?p={{name}}/@{{version}}",
+              "url": "https://packagephobia.now.sh/result?p={{name}}@{{version}}"
+            },
+            {
+              "name": "codecov.io",
+              "icon": "http://codecov.io/github/{{github.user}}/{{github.repo}}/coverage.svg?branch=master",
+              "url": "http://codecov.io/github/{{github.user}}/{{github.repo}}?branch=master"
+            },
+            {
+              "name": "Coverage Status",
+              "icon": "https://coveralls.io/repos/{{github.user}}/{{github.repo}}/badge.svg",
+              "url": "https://coveralls.io/r/{{github.user}}/{{github.repo}}"
+            },
+            {
+              "name": "Maintainability",
+              "icon": "https://api.codeclimate.com/v1/badges/{{id}}/maintainability",
+              "url": "https://codeclimate.com/github/{{github.user}}/{{github.repo}}/maintainability"
+            },
+            {
+              "name": "Known Vulnerabilities",
+              "icon": "https://snyk.io/test/github/{{github.user}}/{{github.repo}}/badge.svg",
+              "url": "https://snyk.io/test/github/{{github.user}}/{{github.repo}}"
+            },
+            {
+              "name": "GitHub Issues",
+              "icon": "https://img.shields.io/github/issues/{{github.user}}/{{github.repo}}.svg?style=flat-square",
+              "url": "https://github.com/{{github.user}}/{{github.repo}}/issues"
+            },
+            {
+              "name": "Stories in Ready",
+              "icon": "https://badge.waffle.io/{{github.user}}/{{github.repo}}.svg?label=ready&title=Ready",
+              "url": "http://waffle.io/{{github.user}}/{{github.repo}}"
+            },
+            {
+              "name": "Dependency Status",
+              "icon": "https://david-dm.org/{{github.user}}/{{github.repo}}.svg",
+              "url": "https://david-dm.org/{{github.user}}/{{github.repo}}"
+            },
+            {
+              "name": "devDependency Status",
+              "icon": "https://david-dm.org/{{github.user}}/{{github.repo}}/dev-status.svg",
+              "url": "https://david-dm.org/{{github.user}}/{{github.repo}}#info=devDependencies"
+            },
+            {
+              "name": "docs",
+              "icon": "http://inch-ci.org/github/{{github.user}}/{{github.repo}}.svg?branch=master",
+              "url": "http://inch-ci.org/github/{{github.user}}/{{github.repo}}"
+            },
+            {
+              "name": "XO code style",
+              "icon": "https://img.shields.io/badge/code_style-XO-5ed9c7.svg",
+              "url": "https://github.com/sindresorhus/xo"
+            },
+            {
+              "name": "downloads",
+              "icon": "http://img.shields.io/npm/dm/{{github.repo}}.svg?style=flat-square",
+              "url": "https://npmjs.org/package/{{github.repo}}"
+            },
+            {
+              "name": "Commitizen friendly",
+              "icon": "https://img.shields.io/badge/commitizen-friendly-brightgreen.svg",
+              "url": "http://commitizen.github.io/cz-cli/"
+            }
+          ]
+        }
+      },
+      {
+        "merger": "License",
+        "pattern": "LICENSE"
+      },
+      {
+        "merger": "MergeAndRemoveLineSet",
+        "pattern": ".gitignore",
+        "options": {
+          "message": "chore(git): update {{entry.name}} from template"
+        }
+      },
+      {
+        "merger": "MergeAndRemoveLineSet",
+        "pattern": ".npmignore",
+        "options": {
+          "message": "chore(npm): update {{entry.name}} from template"
+        }
+      },
+      {
+        "merger": "ReplaceIfEmpty",
+        "pattern": "**/*"
+      }
+    ],
+    "usedBy": [
+    ]
+  }
+}
