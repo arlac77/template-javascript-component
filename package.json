@@ -204,7 +204,8 @@
     ],
     "usedBy": [
       "arlac77/content-entry",
-      "arlac77/kv-reader"
+      "arlac77/kv-reader",
+      "arlac77/loglevel-mixin"
     ]
   }
 }
