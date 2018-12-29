@@ -11,6 +11,7 @@
     "npm-package-template"
   ],
   "scripts": {
+    "prepare": "--delete--",
     "cover": "#overwrite c8 --temp-directory build/coverage ava && c8 report -r lcov --temp-directory build/coverage",
     "test": "ava",
     "posttest": "markdown-doctest",
@@ -20,6 +21,13 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "rollup": "--delete--",
+    "rollup-plugin-commonjs": "--delete--",
+    "rollup-plugin-cleanup": "--delete--",
+    "rollup-plugin-node-resolve": "--delete--",
+    "rollup-plugin-babel": "--delete--",
+    "rollup-plugin-json": "--delete--",
+    "rollup-plugin-executable": "--delete--",
     "travis-deploy-once": "--delete--",
     "documentation": "^9.1.1",
     "markdown-doctest": "^0.9.1",
