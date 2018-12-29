@@ -2,24 +2,44 @@ language: node_js
 node_js:
   - -10
   - 10.15.0
-branches:
-  only:
-    - master
-    - /^greenkeeper/.*$/
-cache: npm
-notifications:
-  email:
-    - -markus.felten@gmx.de
-before_script:
-  - npm prune
-  - npm install -g --production coveralls codecov
+  - 11.6.0
+
 script:
   - npm run cover
-  - npm run lint
-  - npm run docs
+
+jobs:
+  include:
+    - stage: docs
+      node_js: lts/*
+      skip_cleanup: true
+      script:
+        - npm install -g --production coveralls codecov
+        - npm run cover
+        - codecov
+        - cat ./coverage/lcov.info | coveralls
+        - npm run lint
+        - npm run docs
+    - stage: release
+      node_js: lts/*
+      script: skip
+      deploy:
+        provider: script
+        skip_cleanup: true
+        script:
+          - npx semantic-release
+
+cache: npm
+
+branches:
+  only:
+    - -master
+    - -/^greenkeeper/.*$/
+before_script:
+  - -npm prune
+  - -npm install -g --production coveralls codecov
 after_script:
-  - codecov
-  - cat ./coverage/lcov.info | coveralls
+  - -codecov
+  - -cat ./coverage/lcov.info | coveralls
 after_success:
   - -npm run travis-deploy-once "npm run semantic-release"
-  - npm run semantic-release
+  - -npm run semantic-release
