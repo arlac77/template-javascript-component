@@ -30,10 +30,6 @@ jobs:
 
 cache: npm
 
-branches:
-  only:
-    - -master
-    - -/^greenkeeper/.*$/
 before_script:
   - -npm prune
   - -npm install -g --production coveralls codecov
