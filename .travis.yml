@@ -6,6 +6,8 @@ node_js:
 
 script:
   - npm run cover
+  - -npm run lint
+  - -npm run docs
 
 jobs:
   include:
@@ -30,9 +32,6 @@ jobs:
 
 cache: npm
 
-script:
-  - -npm run lint
-  - -npm run docs
 before_script:
   - -npm prune
   - -npm install -g --production coveralls codecov
