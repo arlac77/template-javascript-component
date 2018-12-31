@@ -2,6 +2,7 @@
   "name": "{{name}}",
   "version": "0.0.0-semantic-release",
   "description": "{{description}}",
+  "main": "{{module}}",
   "module": "{{module}}",
   "publishConfig": {
     "access": "public"
