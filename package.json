@@ -203,6 +203,7 @@
       }
     ],
     "usedBy": [
+      "arlac77/aggregation-repository-provider",
       "arlac77/content-entry",
       "arlac77/iterable-string-interceptor",
       "arlac77/kv-reader",
