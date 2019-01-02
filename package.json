@@ -210,6 +210,7 @@
       "arlac77/iterable-string-interceptor",
       "arlac77/kv-reader",
       "arlac77/loglevel-mixin",
+      "arlac77/mock-repository-provider",
       "arlac77/repository-provider",
       "arlac77/statetransition-mixin",
       "arlac77/uti"
