@@ -206,6 +206,7 @@
       "arlac77/aggregation-repository-provider",
       "arlac77/chunk-tokenizer",
       "arlac77/content-entry",
+      "arlac77/expression-expander",
       "arlac77/iterable-string-interceptor",
       "arlac77/kv-reader",
       "arlac77/loglevel-mixin",
