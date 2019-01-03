@@ -212,6 +212,7 @@
       "arlac77/github-repository-provider",
       "arlac77/iterable-string-interceptor",
       "arlac77/kv-reader",
+      "arlac77/local-repository-provider",
       "arlac77/loglevel-mixin",
       "arlac77/mock-repository-provider",
       "arlac77/pratt-parser",
