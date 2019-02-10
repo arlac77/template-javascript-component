@@ -227,6 +227,7 @@
       "arlac77/scope-reporter",
       "arlac77/statetransition-mixin",
       "arlac77/svn-repository-provider",
+      "arlac77/url-resolver-fs",
       "arlac77/uti",
       "arlac77/x-expression"
     ]
