@@ -213,6 +213,7 @@
       "arlac77/env-auth-provider",
       "arlac77/es6-modules-playground",
       "arlac77/expression-expander",
+      "arlac77/fs-resolver-fs",
       "arlac77/gitea-repository-provider",
       "arlac77/github-repository-provider",
       "arlac77/iterable-string-interceptor",
