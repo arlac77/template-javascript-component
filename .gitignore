@@ -1,10 +1,10 @@
 - out
 - package-lock.json
 - .nyc_output
+- dist
 node_modules
 build
 coverage
-dist
 *.log
 *.dump
 .DS_Store
