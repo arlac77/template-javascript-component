@@ -203,6 +203,8 @@
       }
     ],
     "usedBy": [
+      "Kronos-Integration/kronos-endpoint",
+      "Kronos-Integration/kronos-interceptor",
       "arlac77/aggregation-repository-provider",
       "arlac77/bitbucket-repository-provider",
       "arlac77/cache-repository-provider",
