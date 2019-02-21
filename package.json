@@ -223,6 +223,7 @@
       "arlac77/github-repository-provider",
       "arlac77/iterable-string-interceptor",
       "arlac77/keytar-auth-provider",
+      "arlac77/konsum-database",
       "arlac77/kv-reader",
       "arlac77/local-repository-provider",
       "arlac77/loglevel-mixin",
