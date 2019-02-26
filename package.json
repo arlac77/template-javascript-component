@@ -122,11 +122,6 @@
               "url": "http://codecov.io/github/{{github.user}}/{{github.repo}}?branch=master"
             },
             {
-              "name": "Coverage Status",
-              "icon": "https://coveralls.io/repos/{{github.user}}/{{github.repo}}/badge.svg",
-              "url": "https://coveralls.io/r/{{github.user}}/{{github.repo}}"
-            },
-            {
               "name": "Maintainability",
               "icon": "https://api.codeclimate.com/v1/badges/{{id}}/maintainability",
               "url": "https://codeclimate.com/github/{{github.user}}/{{github.repo}}/maintainability"
