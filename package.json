@@ -137,11 +137,6 @@
               "url": "https://github.com/{{github.user}}/{{github.repo}}/issues"
             },
             {
-              "name": "Stories in Ready",
-              "icon": "https://badge.waffle.io/{{github.user}}/{{github.repo}}.svg?label=ready&title=Ready",
-              "url": "http://waffle.io/{{github.user}}/{{github.repo}}"
-            },
-            {
               "name": "Dependency Status",
               "icon": "https://david-dm.org/{{github.user}}/{{github.repo}}.svg",
               "url": "https://david-dm.org/{{github.user}}/{{github.repo}}"
@@ -155,11 +150,6 @@
               "name": "docs",
               "icon": "http://inch-ci.org/github/{{github.user}}/{{github.repo}}.svg?branch=master",
               "url": "http://inch-ci.org/github/{{github.user}}/{{github.repo}}"
-            },
-            {
-              "name": "XO code style",
-              "icon": "https://img.shields.io/badge/code_style-XO-5ed9c7.svg",
-              "url": "https://github.com/sindresorhus/xo"
             },
             {
               "name": "downloads",
