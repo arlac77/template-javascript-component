@@ -34,7 +34,7 @@
     "ava": "^1.4.1",
     "c8": "^3.4.0",
     "esm": "^3.2.22",
-    "semantic-release": "^15.13.3"
+    "semantic-release": "^15.13.8"
   },
   "contributors": [
     {
