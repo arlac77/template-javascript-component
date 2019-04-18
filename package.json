@@ -29,7 +29,7 @@
     "rollup-plugin-json": "--delete--",
     "rollup-plugin-executable": "--delete--",
     "travis-deploy-once": "--delete--",
-    "documentation": "^9.3.1",
+    "documentation": "^10.0.0",
     "markdown-doctest": "^0.9.1",
     "ava": "^1.4.1",
     "c8": "^3.5.0",
