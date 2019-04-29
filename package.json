@@ -224,6 +224,7 @@
       "arlac77/statetransition-mixin",
       "arlac77/svn-dav-fs",
       "arlac77/svn-repository-provider",
+      "arlac77/svn-simple-auth-provider",
       "arlac77/url-resolver-fs",
       "arlac77/uti",
       "arlac77/x-expression",
