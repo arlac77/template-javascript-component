@@ -4,6 +4,7 @@
   "description": "{{description}}",
   "main": "{{module}}",
   "module": "{{module}}",
+  "type": "module",
   "publishConfig": {
     "access": "public"
   },
