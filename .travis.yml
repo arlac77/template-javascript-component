@@ -5,7 +5,7 @@ node_js:
   - -12
   - 10.15.3
   - 12.1.0
-
+cache: npm
 script:
   - npm run cover
   - -npm run lint
@@ -32,8 +32,6 @@ jobs:
         skip_cleanup: true
         script:
           - npx semantic-release
-
-cache: npm
 
 before_script:
   - -npm prune
