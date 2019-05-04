@@ -9,10 +9,15 @@ cache: npm
 jobs:
   include:
     - stage: test
-      skip_cleanup: true
+      skip_cleanup: "true"
       script:
         - npm run cover
         - npx codecov
+        - cat ./build/coverage/lcov.info | npx coveralls
+    - stage: doc
+      node_js: lts/*
+      skip_cleanup: "true"
+      script:
         - npm run lint
         - npm run docs
     - stage: release
@@ -20,6 +25,6 @@ jobs:
       script: skip
       deploy:
         provider: script
-        skip_cleanup: true
+        skip_cleanup: "true"
         script:
           - npx semantic-release
