@@ -22,7 +22,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "rollup": "--delete--",
+    "rollup": "^1.11.3",
     "rollup-plugin-commonjs": "--delete--",
     "rollup-plugin-cleanup": "--delete--",
     "rollup-plugin-node-resolve": "--delete--",
