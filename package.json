@@ -30,12 +30,12 @@
     "rollup-plugin-json": "--delete--",
     "rollup-plugin-executable": "--delete--",
     "travis-deploy-once": "--delete--",
-    "documentation": "^10.1.0",
+    "documentation": "^11.0.0",
     "markdown-doctest": "^0.9.1",
     "ava": "^1.4.1",
     "c8": "^4.1.4",
     "esm": "^3.2.22",
-    "semantic-release": "^15.13.12"
+    "semantic-release": "^15.13.13"
   },
   "contributors": [
     {
