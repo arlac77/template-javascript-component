@@ -1,8 +1,10 @@
 - rollup.config.js
 - .npmignore
 - .gitignore
+- SUMMARY.md
+-coverage
+
 build
-coverage
 tests
 doc
 *.log
@@ -12,5 +14,4 @@ doc
 .travis.yml
 .vscode
 .markdown-doctest-setup.js
-SUMMARY.md
 .DS_Store
