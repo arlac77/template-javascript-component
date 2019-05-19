@@ -2,7 +2,7 @@
 - .npmignore
 - .gitignore
 - SUMMARY.md
--coverage
+- coverage
 
 build
 tests
