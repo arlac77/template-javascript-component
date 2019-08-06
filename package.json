@@ -206,6 +206,7 @@
       "arlac77/mock-repository-provider",
       "arlac77/model-attributes",
       "arlac77/mqtt-timeseries-leveldb",
+      "arlac77/multi-path-matcher",
       "arlac77/npm-dep-graph",
       "arlac77/npm-package-walker",
       "arlac77/pratt-parser",
