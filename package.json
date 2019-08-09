@@ -195,6 +195,7 @@
       "arlac77/gd-playground",
       "arlac77/gitea-repository-provider",
       "arlac77/github-repository-provider",
+      "arlac77/hinted-tree-merger",
       "arlac77/iterable-string-interceptor",
       "arlac77/keytar-auth-provider",
       "arlac77/koa-github-hook-handler",
