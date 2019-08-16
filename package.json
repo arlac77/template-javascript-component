@@ -223,5 +223,6 @@
       "arlac77/x-expression",
       "k0nsti/konsum-db"
     ]
-  }
+  },
+  "node": ">=10.16.3"
 }
