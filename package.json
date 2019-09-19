@@ -211,6 +211,7 @@
       "arlac77/pratt-parser",
       "arlac77/remove-sensible-values",
       "arlac77/repository-provider",
+      "arlac77/repository-provider-test-support",
       "arlac77/rpm-codec",
       "arlac77/scope-reporter",
       "arlac77/sftp-resolver-fs",
