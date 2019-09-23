@@ -188,6 +188,7 @@
       "arlac77/config-expander",
       "arlac77/console-auth-provider",
       "arlac77/content-entry",
+      "arlac77/entitlement",
       "arlac77/env-auth-provider",
       "arlac77/es6-modules-playground",
       "arlac77/expression-expander",
