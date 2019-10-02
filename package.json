@@ -13,7 +13,7 @@
   ],
   "scripts": {
     "prepare": "--delete--",
-    "semantic-release": "--delete--",
+    "semantic-release": "^15.13.25",
     "cover": "#overwrite c8 -x 'tests/**/*.mjs' --temp-directory build/tmp ava && c8 report -r lcov -o build/coverage --temp-directory build/tmp",
     "test": "ava",
     "docs": "documentation readme {{module}} --section=API",
@@ -25,7 +25,7 @@
     "ava": "^2.4.0",
     "c8": "^5.0.4",
     "esm": "^3.2.25",
-    "semantic-release": "^15.13.24"
+    "semantic-release": "^15.13.25"
   },
   "contributors": [
     {
