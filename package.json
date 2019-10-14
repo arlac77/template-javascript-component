@@ -51,6 +51,7 @@
     ]
   },
   "template": {
+    "inheritFrom": "arlac77/npm-package-template-root",
     "files": [
       {
         "merger": "Package",
