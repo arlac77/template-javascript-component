@@ -180,6 +180,7 @@
     "usedBy": [
       "Kronos-Integration/kronos-endpoint",
       "Kronos-Integration/kronos-interceptor",
+      "Kronos-Integration/kronos-service",
       "Kronos-Integration/test-interceptor",
       "Kronos-Integration/test-step",
       "arlac77/aggregation-repository-provider",
