@@ -181,6 +181,7 @@
       "Kronos-Integration/kronos-endpoint",
       "Kronos-Integration/kronos-interceptor",
       "Kronos-Integration/kronos-service",
+      "Kronos-Integration/kronos-service-consul",
       "Kronos-Integration/kronos-service-health-check",
       "Kronos-Integration/kronos-service-koa",
       "Kronos-Integration/test-interceptor",
