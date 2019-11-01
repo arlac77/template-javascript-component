@@ -183,6 +183,7 @@
       "Kronos-Integration/kronos-service-health-check",
       "Kronos-Integration/kronos-service-koa",
       "Kronos-Integration/kronos-service-registry",
+      "Kronos-Integration/kronos-service-systemd",
       "Kronos-Integration/test-interceptor",
       "Kronos-Integration/test-step",
       "arlac77/aggregation-repository-provider",
