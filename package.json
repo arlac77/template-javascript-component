@@ -100,9 +100,9 @@
               "url": "http://travis-ci.org/{{github.user}}/{{github.repo}}"
             },
             {
-              "name": "install size",
-              "icon": "https://packagephobia.now.sh/badge?p={{name}}/@{{version}}",
-              "url": "https://packagephobia.now.sh/result?p={{name}}@{{version}}"
+              "name": "minified size",
+              "icon": "https://badgen.net/bundlephobia/min/{{name}}",
+              "url": "https://bundlephobia.com/result?p={{name}}"
             },
             {
               "name": "codecov.io",
