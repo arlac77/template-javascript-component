@@ -100,11 +100,6 @@
               "url": "http://travis-ci.org/{{github.user}}/{{github.repo}}"
             },
             {
-              "name": "minified size",
-              "icon": "https://badgen.net/bundlephobia/min/{{name}}",
-              "url": "https://bundlephobia.com/result?p={{name}}"
-            },
-            {
               "name": "codecov.io",
               "icon": "http://codecov.io/github/{{github.user}}/{{github.repo}}/coverage.svg?branch=master",
               "url": "http://codecov.io/github/{{github.user}}/{{github.repo}}?branch=master"
