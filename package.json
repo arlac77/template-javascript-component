@@ -171,6 +171,7 @@
       }
     ],
     "usedBy": [
+      "Kronos-Integration/interceptor-gzip",
       "Kronos-Integration/kronos-endpoint",
       "Kronos-Integration/kronos-interceptor",
       "Kronos-Integration/kronos-service",
