@@ -174,6 +174,7 @@
       "Kronos-Integration/interceptor-gzip",
       "Kronos-Integration/kronos-endpoint",
       "Kronos-Integration/kronos-interceptor",
+      "Kronos-Integration/kronos-interceptor-decode-json",
       "Kronos-Integration/kronos-service",
       "Kronos-Integration/kronos-service-admin",
       "Kronos-Integration/kronos-service-consul",
