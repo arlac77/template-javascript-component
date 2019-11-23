@@ -172,15 +172,16 @@
       }
     ],
     "usedBy": [
-      "Kronos-Integration/interceptor-gzip",
       "Kronos-Integration/endpoint",
       "Kronos-Integration/interceptor",
       "Kronos-Integration/interceptor-decode-json",
+      "Kronos-Integration/interceptor-gzip",
       "Kronos-Integration/service",
       "Kronos-Integration/service-admin",
       "Kronos-Integration/service-consul",
       "Kronos-Integration/service-health-check",
       "Kronos-Integration/service-koa",
+      "Kronos-Integration/service-ldap",
       "Kronos-Integration/service-logger-gelf",
       "Kronos-Integration/service-systemd",
       "Kronos-Integration/service-uti",
