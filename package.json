@@ -147,28 +147,6 @@
             }
           ]
         }
-      },
-      {
-        "merger": "License",
-        "pattern": "LICENSE"
-      },
-      {
-        "merger": "MergeAndRemoveLineSet",
-        "pattern": ".gitignore",
-        "options": {
-          "message": "chore(git): update {{entry.name}} from template"
-        }
-      },
-      {
-        "merger": "MergeAndRemoveLineSet",
-        "pattern": ".npmignore",
-        "options": {
-          "message": "chore(npm): update {{entry.name}} from template"
-        }
-      },
-      {
-        "merger": "ReplaceIfEmpty",
-        "pattern": "**/*"
       }
     ],
     "usedBy": [
