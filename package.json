@@ -141,6 +141,7 @@
       "Kronos-Integration/interceptor-gzip",
       "Kronos-Integration/service",
       "Kronos-Integration/service-admin",
+      "Kronos-Integration/service-authenticator",
       "Kronos-Integration/service-consul",
       "Kronos-Integration/service-health-check",
       "Kronos-Integration/service-koa",
