@@ -9,11 +9,10 @@ jobs:
   include:
     - stage: test
       node_js:
-        - -10
         - -12
         - -13
         - 12.13.1
-        - 13.1.0
+        - 13.2.0
       script:
         - npm run cover
         - npx codecov
