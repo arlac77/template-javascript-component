@@ -130,7 +130,7 @@
       "Kronos-Integration/service-authenticator",
       "Kronos-Integration/service-consul",
       "Kronos-Integration/service-health-check",
-      "Kronos-Integration/service-koa",
+      "Kronos-Integration/service-htto",
       "Kronos-Integration/service-ldap",
       "Kronos-Integration/service-logger-gelf",
       "Kronos-Integration/service-systemd",
