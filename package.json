@@ -9,9 +9,6 @@
   "publishConfig": {
     "access": "public"
   },
-  "keywords": [
-    "npm-package-template"
-  ],
   "scripts": {
     "cover": "#overwrite c8 -x 'tests/**/*' --temp-directory build/tmp ava && c8 report -r lcov -o build/coverage --temp-directory build/tmp",
     "test": "ava",
