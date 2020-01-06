@@ -49,7 +49,8 @@
   "template": {
     "inheritFrom": [
       "arlac77/npm-package-template-root",
-      "arlac77/npm-package-template-travis"
+      "arlac77/npm-package-template-travis",
+      "arlac77/npm-package-template-ava"
     ],
     "files": [
       {
@@ -75,11 +76,6 @@
               "name": "styled with prettier",
               "icon": "https://img.shields.io/badge/styled_with-prettier-ff69b4.svg",
               "url": "https://github.com/prettier/prettier"
-            },
-            {
-              "name": "codecov.io",
-              "icon": "http://codecov.io/github/{{github.user}}/{{github.repo}}/coverage.svg?branch=master",
-              "url": "http://codecov.io/github/{{github.user}}/{{github.repo}}?branch=master"
             },
             {
               "name": "Maintainability",
