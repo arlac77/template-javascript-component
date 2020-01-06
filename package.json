@@ -6,45 +6,17 @@
   "module": "{{module}}",
   "type": "module",
   "sideEffects": false,
-  "publishConfig": {
-    "access": "public"
-  },
   "scripts": {
-    "cover": "#overwrite c8 -x 'tests/**/*' --temp-directory build/tmp ava && c8 report -r lcov -o build/coverage --temp-directory build/tmp",
-    "test": "ava",
     "docs": "documentation readme {{module}} --section=API",
     "lint": "documentation lint {{module}}"
   },
-  "dependencies": {},
   "devDependencies": {
     "documentation": "^12.1.4",
-    "ava": "^2.4.0",
-    "c8": "^7.0.0",
-    "esm": "^3.2.25",
     "semantic-release": "^15.14.0"
   },
-  "contributors": [
-    {
-      "name": "Markus Felten",
-      "email": "markus.felten@gmx.de"
-    }
-  ],
   "license": "BSD-2-Clause",
   "engines": {
     "node": ">=12.14.0"
-  },
-  "ava": {
-    "require": [
-      "esm"
-    ],
-    "extensions": [
-      "mjs"
-    ],
-    "babel": false,
-    "compileEnhancements": false,
-    "files": [
-      "tests/*-test.mjs"
-    ]
   },
   "template": {
     "inheritFrom": [
