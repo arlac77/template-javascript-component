@@ -3,18 +3,12 @@
   "module": "{{module}}",
   "type": "module",
   "sideEffects": false,
-  "scripts": {
-    "docs": "documentation readme {{module}} --section=API",
-    "lint": "documentation lint {{module}}"
-  },
-  "devDependencies": {
-    "documentation": "^12.1.4"
-  },
   "template": {
     "inheritFrom": [
       "arlac77/npm-package-template-root",
       "arlac77/npm-package-template-travis",
       "arlac77/npm-package-template-ava",
+      "arlac77/npm-package-template-documentation",
       "arlac77/npm-package-template-release"
     ],
     "files": [
@@ -30,34 +24,6 @@
             "^kronos-step.+": "kronos-step",
             "^kronos-adapter.+": "kronos-step"
           }
-        }
-      },
-      {
-        "merger": "Readme",
-        "pattern": "README.md",
-        "options": {
-          "badges": [
-            {
-              "name": "styled with prettier",
-              "icon": "https://img.shields.io/badge/styled_with-prettier-ff69b4.svg",
-              "url": "https://github.com/prettier/prettier"
-            },
-            {
-              "name": "Maintainability",
-              "icon": "https://api.codeclimate.com/v1/badges/{{id}}/maintainability",
-              "url": "https://codeclimate.com/github/{{github.user}}/{{github.repo}}/maintainability"
-            },
-            {
-              "name": "Known Vulnerabilities",
-              "icon": "https://snyk.io/test/github/{{github.user}}/{{github.repo}}/badge.svg",
-              "url": "https://snyk.io/test/github/{{github.user}}/{{github.repo}}"
-            },
-            {
-              "name": "Commitizen friendly",
-              "icon": "https://img.shields.io/badge/commitizen-friendly-brightgreen.svg",
-              "url": "http://commitizen.github.io/cz-cli/"
-            }
-          ]
         }
       }
     ],
