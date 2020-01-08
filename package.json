@@ -1,7 +1,4 @@
 {
-  "name": "{{name}}",
-  "version": "0.0.0-semantic-release",
-  "description": "{{description}}",
   "main": "{{module}}",
   "module": "{{module}}",
   "type": "module",
@@ -11,18 +8,14 @@
     "lint": "documentation lint {{module}}"
   },
   "devDependencies": {
-    "documentation": "^12.1.4",
-    "semantic-release": "^15.14.0"
-  },
-  "license": "BSD-2-Clause",
-  "engines": {
-    "node": ">=12.14.0"
+    "documentation": "^12.1.4"
   },
   "template": {
     "inheritFrom": [
       "arlac77/npm-package-template-root",
       "arlac77/npm-package-template-travis",
-      "arlac77/npm-package-template-ava"
+      "arlac77/npm-package-template-ava",
+      "arlac77/npm-package-template-release"
     ],
     "files": [
       {
