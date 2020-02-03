@@ -12,13 +12,6 @@
       "arlac77/npm-package-template-release"
     ],
     "usedBy": [
-      "Kronos-Integration/service-admin",
-      "Kronos-Integration/service-authenticator",
-      "Kronos-Integration/service-consul",
-      "Kronos-Integration/service-health-check",
-      "Kronos-Integration/service-logger-gelf",
-      "Kronos-Integration/service-systemd",
-      "Kronos-Integration/service-uti",
       "Kronos-Integration/test-interceptor",
       "Kronos-Integration/test-step",
       "arlac77/aggregation-repository-provider",
