@@ -1,8 +1,12 @@
+- rollup.config.test.js
 - rollup.config.js
+- .npmrc
+- node_modules
+- .nyc_output
 - .npmignore
 - .gitignore
-- SUMMARY.md
 - coverage
+- SUMMARY.md
 
 build
 tests
