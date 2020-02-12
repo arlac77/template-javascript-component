@@ -16,14 +16,6 @@ jobs:
         - npm run cover
         - npx codecov
         - cat ./build/coverage/lcov.info | npx coveralls
-    - stage: release
-      node_js: lts/*
-      script: skip
-      deploy:
-        provider: script
-        skip_cleanup: "true"
-        script:
-          - npx semantic-release
 
 cache: --delete-- npm
 script:
