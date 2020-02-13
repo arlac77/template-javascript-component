@@ -41,6 +41,7 @@
       "arlac77/npm-dep-graph",
       "arlac77/npm-package-walker",
       "arlac77/npm-template-sync",
+      "arlac77/npm-template-sync-github-hook",
       "arlac77/pratt-parser",
       "arlac77/registry-mixin",
       "arlac77/remove-sensible-values",
