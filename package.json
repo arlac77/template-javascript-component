@@ -3,6 +3,9 @@
   "module": "{{module}}",
   "type": "module",
   "sideEffects": false,
+  "engines": {
+    "node": ">={{node_version}}"
+  },
   "template": {
     "inheritFrom": [
       "arlac77/npm-package-template-root",
