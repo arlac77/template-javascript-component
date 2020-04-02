@@ -12,7 +12,6 @@
       "arlac77/template-release"
     ],
     "usedBy": [
-      "arlac77/template-kronos-module",
       "Kronos-Integration/test-interceptor",
       "Kronos-Integration/test-step",
       "arlac77/aggregation-repository-provider",
@@ -44,6 +43,7 @@
       "arlac77/npm-package-walker",
       "arlac77/npm-template-sync",
       "arlac77/npm-template-sync-github-hook",
+      "arlac77/one-time-execution-method",
       "arlac77/pratt-parser",
       "arlac77/registry-mixin",
       "arlac77/remove-sensible-values",
@@ -56,6 +56,7 @@
       "arlac77/svn-dav-fs",
       "arlac77/svn-repository-provider",
       "arlac77/svn-simple-auth-provider",
+      "arlac77/template-kronos-module",
       "arlac77/url-resolver-fs",
       "arlac77/uti",
       "arlac77/x-expression",
