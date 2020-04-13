@@ -42,6 +42,7 @@
       "arlac77/npm-dep-graph",
       "arlac77/npm-package-walker",
       "arlac77/npm-template-sync",
+      "arlac77/mkpr",
       "arlac77/npm-template-sync-github-hook",
       "arlac77/one-time-execution-method",
       "arlac77/pratt-parser",
