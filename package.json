@@ -1,6 +1,6 @@
 {
-  "main": "{{module}}",
-  "module": "{{module}}",
+  "main": "{{main}}",
+  "module": "--delete--",
   "type": "module",
   "sideEffects": false,
   "template": {
