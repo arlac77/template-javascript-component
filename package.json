@@ -62,6 +62,12 @@
       "arlac77/timeseries-sqlite2leveldb",
       "arlac77/url-resolver-fs",
       "arlac77/uti",
+      "arlac77/url-cmd",
+      "arlac77/named-conf",
+      "arlac77/bocf",
+      "arlac77/config-expander-cli",
+      "arlac77/npm-pkgbuild",
+      "arlac77/npm-pkgbuild#multi_format",
       "arlac77/x-expression",
       "k0nsti/konsum-db"
     ]
