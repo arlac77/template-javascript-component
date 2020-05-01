@@ -1,5 +1,8 @@
 {
   "main": "{{main}}",
+  "exports" : {
+    "." : "./{{main}}"
+  },
   "module": "--delete--",
   "type": "module",
   "sideEffects": false,
