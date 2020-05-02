@@ -1,7 +1,7 @@
 {
   "main": "{{main}}",
-  "exports" : {
-    "." : "./{{main}}"
+  "exports": {
+    ".": "./{{main}}"
   },
   "module": "--delete--",
   "type": "module",
@@ -17,11 +17,14 @@
     "usedBy": [
       "Kronos-Integration/test-interceptor",
       "Kronos-Integration/test-step",
+      "arlac77/SymatemQuery",
       "arlac77/aggregation-repository-provider",
       "arlac77/bitbucket-repository-provider",
+      "arlac77/bocf",
       "arlac77/cache-repository-provider",
       "arlac77/chunk-tokenizer",
       "arlac77/config-expander",
+      "arlac77/config-expander-cli",
       "arlac77/console-auth-provider",
       "arlac77/content-entry",
       "arlac77/dns-playground",
@@ -44,8 +47,11 @@
       "arlac77/model-attributes",
       "arlac77/mqtt-timeseries-leveldb",
       "arlac77/multi-path-matcher",
+      "arlac77/named-conf",
       "arlac77/npm-dep-graph",
       "arlac77/npm-package-walker",
+      "arlac77/npm-pkgbuild",
+      "arlac77/npm-pkgbuild#multi_format",
       "arlac77/npm-template-sync",
       "arlac77/npm-template-sync-github-hook",
       "arlac77/one-time-execution-method",
@@ -63,14 +69,9 @@
       "arlac77/svn-simple-auth-provider",
       "arlac77/template-kronos-module",
       "arlac77/timeseries-sqlite2leveldb",
+      "arlac77/url-cmd",
       "arlac77/url-resolver-fs",
       "arlac77/uti",
-      "arlac77/url-cmd",
-      "arlac77/named-conf",
-      "arlac77/bocf",
-      "arlac77/config-expander-cli",
-      "arlac77/npm-pkgbuild",
-      "arlac77/npm-pkgbuild#multi_format",
       "arlac77/x-expression",
       "k0nsti/konsum-db"
     ]
