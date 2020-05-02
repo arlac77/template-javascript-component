@@ -1,7 +1,8 @@
 {
   "main": "{{main}}",
   "exports": {
-    ".": "./{{main}}"
+    ".": "./{{main}}",
+    "./": "./"
   },
   "module": "--delete--",
   "type": "module",
