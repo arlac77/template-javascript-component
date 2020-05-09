@@ -18,6 +18,7 @@
     "usedBy": [
       "Kronos-Integration/test-interceptor",
       "Kronos-Integration/test-step",
+      "arlac77/SymatemOntology",
       "arlac77/SymatemQuery",
       "arlac77/aggregation-repository-provider",
       "arlac77/bitbucket-repository-provider",
