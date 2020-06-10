@@ -3,7 +3,6 @@
   "exports": {
     ".": "{{main}}"
   },
-  "module": "--delete--",
   "type": "module",
   "sideEffects": false,
   "template": {
