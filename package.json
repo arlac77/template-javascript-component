@@ -35,6 +35,7 @@
       "arlac77/fs-resolver-fs",
       "arlac77/gitea-repository-provider",
       "arlac77/github-repository-provider",
+      "arlac77/gitlab-repository-provider",
       "arlac77/hinted-tree-merger",
       "arlac77/iterable-string-interceptor",
       "arlac77/keytar-auth-provider",
