@@ -15,7 +15,6 @@
     ],
     "usedBy": [
       "Kronos-Integration/test-interceptor",
-      "Kronos-Integration/test-step",
       "arlac77/SymatemOntology",
       "arlac77/SymatemQuery",
       "arlac77/aggregate-async-iterator",
