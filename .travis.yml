@@ -1,5 +1,4 @@
 jobs:
   include:
     - stage: test
-      node_js:
-        - 14.11.0
+      node_js: 14.11.0
