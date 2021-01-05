@@ -56,7 +56,6 @@
       "arlac77/npm-package-walker",
       "arlac77/npm-pkgbuild",
       "arlac77/npm-pkgbuild#multi_format",
-      "arlac77/npm-template-sync",
       "arlac77/one-time-execution-method",
       "arlac77/pratt-parser",
       "arlac77/reader-line-iterator",
@@ -75,6 +74,7 @@
       "arlac77/url-resolver-fs",
       "arlac77/uti",
       "arlac77/x-expression",
+      "template-tools/template-sync",
       "konsumation/konsum-db"
     ]
   }
