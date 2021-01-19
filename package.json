@@ -1,11 +1,12 @@
 {
-  "main": "--delete--",
-  "type": "--delete--",
   "exports": {
     ".": "{{main}}"
   },
   "sideEffects": false,
   "template": {
+    "properties": {
+      "javascript.source": "./src/**/.mjs"
+    },
     "inheritFrom": [
       "arlac77/template-root",
       "arlac77/template-ava-coverage",
