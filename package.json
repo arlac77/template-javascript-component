@@ -73,7 +73,6 @@
       "arlac77/svn-dav-fs",
       "arlac77/svn-repository-provider",
       "arlac77/svn-simple-auth-provider",
-      "arlac77/timeseries-sqlite2leveldb",
       "arlac77/url-resolver-fs",
       "arlac77/uti",
       "arlac77/x-expression",
