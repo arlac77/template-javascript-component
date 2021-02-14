@@ -72,8 +72,9 @@
       "arlac77/url-resolver-fs",
       "arlac77/uti",
       "arlac77/x-expression",
-      "template-tools/template-sync",
-      "konsumation/konsum-db"
+      "konsumation/konsum-db",
+      "konsumation/konsum-importer",
+      "template-tools/template-sync"
     ]
   }
 }
