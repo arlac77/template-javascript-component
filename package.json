@@ -73,7 +73,8 @@
       "arlac77/uti",
       "arlac77/x-expression",
       "konsumation/konsum-db",
-      "template-tools/template-sync"
+      "template-tools/template-sync",
+      "template-tools/template-sync-action"
     ]
   }
 }
