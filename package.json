@@ -1,6 +1,6 @@
 {
   "exports": {},
-  "sideEffects": false,
+  "sideEffects": "--delete--",
   "template": {
     "inheritFrom": [
       "arlac77/template-root",
