@@ -45,6 +45,7 @@
       "arlac77/loglevel-mixin",
       "arlac77/matching-iterator",
       "arlac77/mock-repository-provider",
+      "arlac77/mocked-log-provider",
       "arlac77/model",
       "arlac77/model-attributes",
       "arlac77/mqtt-timeseries-leveldb",
