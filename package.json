@@ -71,6 +71,7 @@
       "arlac77/svn-simple-auth-provider",
       "arlac77/url-resolver-fs",
       "arlac77/uti",
+      "arlac77/worker-auth-provider",
       "arlac77/x-expression",
       "k0nsti/browser-stream-tar",
       "k0nsti/browser-stream-util",
