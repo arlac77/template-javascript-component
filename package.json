@@ -26,7 +26,6 @@
       "arlac77/expression-expander",
       "arlac77/fetch-link-util",
       "arlac77/fetch-rate-limit-util",
-      "arlac77/fs-resolver-fs",
       "arlac77/gitea-repository-provider",
       "arlac77/github-repository-provider",
       "arlac77/gitlab-repository-provider",
