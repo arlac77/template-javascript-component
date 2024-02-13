@@ -1,5 +1,4 @@
 {
-  "exports": {},
   "template": {
     "inheritFrom": [
       "arlac77/template-root",
