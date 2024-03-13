@@ -72,7 +72,6 @@
       "k0nsti/browser-stream-tar",
       "k0nsti/browser-stream-util",
       "konsumation/konsum-db",
-      "konsumation/konsum-postgres",
       "template-tools/template-sync",
       "template-tools/template-sync-action"
     ]
