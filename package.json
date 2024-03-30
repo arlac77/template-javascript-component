@@ -71,9 +71,9 @@
       "arlac77/x-expression",
       "k0nsti/browser-stream-tar",
       "k0nsti/browser-stream-util",
-      "konsumation/konsum-db",
-      "konsumation/konsum-db-test",
-      "konsumation/konsum-model",
+      "konsumation/db",
+      "konsumation/db-test",
+      "konsumation/model",
       "template-tools/template-sync",
       "template-tools/template-sync-action"
     ]
