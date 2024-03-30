@@ -71,6 +71,7 @@
       "arlac77/x-expression",
       "k0nsti/browser-stream-tar",
       "k0nsti/browser-stream-util",
+      "konsumation/cloudflare-worker",
       "konsumation/db",
       "konsumation/db-level",
       "konsumation/db-postgresql",
