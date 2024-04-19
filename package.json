@@ -76,6 +76,7 @@
       "konsumation/db-level",
       "konsumation/db-postgresql",
       "konsumation/db-test",
+      "konsumation/fetch-client",
       "konsumation/model",
       "template-tools/template-sync",
       "template-tools/template-sync-action"
