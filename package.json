@@ -58,6 +58,7 @@
       "arlac77/repository-provider",
       "arlac77/repository-provider-cli-support",
       "arlac77/repository-provider-test-support",
+      "arlac77/resume-renderer",
       "arlac77/rpm-codec",
       "arlac77/scope-reporter",
       "arlac77/sftp-resolver-fs",
